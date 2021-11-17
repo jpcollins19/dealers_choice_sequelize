@@ -1,0 +1,104 @@
+body {
+  background-color: rgb(160, 155, 155);
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: black;
+  border-radius: 15px;
+}
+
+#header > h1 {
+  font-size: 3em;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-shadow: 2px 2px red;
+}
+.submit-container {
+  padding: 1rem;
+  text-align: center;
+}
+
+.submit-container > input {
+  height: 2rem;
+  padding: 1rem;
+}
+
+#team-info-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.single-team-container {
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+  width: 320px;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  border-radius: 15px;
+  border: solid 5px black;
+  background-color: white;
+}
+
+.single-team-info-container {
+  padding: 0.5rem;
+  font-size: 1.3em;
+}
+
+.delete-team {
+  padding: 1rem;
+}
+
+/*///////////*/
+
+.center {
+  text-align: center;
+}
+
+.home-link{
+  padding: 1rem;
+  font-size: 2rem
+}
+
+#player-info-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.single-player-container {
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+  width: 320px;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  border-radius: 15px;
+  border: solid 5px black;
+  background-color: white;
+}
+
+.single-player-info-container {
+  padding: 0.5rem;
+  font-size: 1.3em;
+}
+
+.hide {
+  width: 0;
+  height: 0
+}
+
+/*/ //////////*/
